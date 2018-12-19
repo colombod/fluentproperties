@@ -6,7 +6,7 @@ module.exports = function (wallaby) {
         files: [
             "src/**/*.ts",
             "test/**/*.ts",
-            "!test/**/*.specs.ts*"
+            "!tests/**/*.specs.ts*"
         ],
         tests: ["tests/**/*.specs.ts"],
         compilers: {

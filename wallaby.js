@@ -11,8 +11,7 @@ module.exports = function (wallaby) {
         tests: ["tests/**/*.specs.ts"],
         compilers: {
             '**/*.ts?(x)': wallaby.compilers.typeScript({
-                typescript: require('typescript'),
-                module: 'commonjs',
+                typescript: require('typescript')
             })
         },
         testFramework: 'mocha',

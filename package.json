@@ -1,0 +1,32 @@
+{
+  "name": "fluent-properties",
+  "version": "1.0.0",
+  "description": "D3 style property accessors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colombod/fluentproperties.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Diego Colombo, Sean Micklethwaite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colombod/fluentproperties/issues"
+  },
+  "homepage": "https://github.com/colombod/fluentproperties#readme",
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "mocha-typescript": "1.1.17",
+    "ts-mocha": "2.0.0",
+    "ts-node": "7.0.1",
+    "tslint": "5.12.0",
+    "typescript": "3.2.2"
+  }
+}
